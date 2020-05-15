@@ -1,0 +1,82 @@
+div#consentForm > div > div > img {
+ display: none !important;
+}
+div#consentForm{
+	padding: 10px !important;
+}
+button#smwpConfirmationButton{
+	width: 100% !important;
+	background: #6db3f2 !important;
+	background: -moz-linear-gradient(top, #6db3f2 0%, #54a3ee 50%, #3690f0 51%, #1e69de 100%) !important;
+	background: -webkit-linear-gradient(top, #6db3f2 0%,#54a3ee 50%,#3690f0 51%,#1e69de 100%) !important;
+	background: linear-gradient(to bottom, #6db3f2 0%,#54a3ee 50%,#3690f0 51%,#1e69de 100%) !important;
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#6db3f2', endColorstr='#1e69de',GradientType=0 ) !important;
+	height: 35px !important;
+}
+button#smwpRejectionButton{
+	margin: 5px 0 0 0 !important;
+	border: 0px solid #ffffff !important;
+	font-size: 10px !important;
+	color: #D9C6C6 !important;
+}
+div#consentForm > div:nth-last-child(1){
+	padding: 25px 20px 5px 20px !important;
+	text-align: center !important
+}
+div#consentForm > div > div:nth-last-child(1) > p:nth-child(1){
+	text-align: center !important;
+	padding-left: 0 !important;
+	font-size: 15px !important;
+}
+div#consentForm > div > div:nth-last-child(1) > p:nth-child(2){
+	text-align: left !important;
+	padding-left: 0 !important;
+	font-size: 13px !important;
+	line-height: 16px !important;
+}
+div.sm-webpush{
+	left: 50% !important;
+	max-width: 500px !important;
+}
+.sm-webpush {
+  z-index: 999990 !important;
+  min-height: unset !important;
+  top: 10px !important;
+  left: 170px !important;
+}
+.sm-webpush #consentForm > div > div > img {
+  width: 80px !important;
+  height: 80px !important;
+}
+.sm-webpush #consentForm > div > div + div {
+  min-height: unset !important;
+}
+.sm-webpush #consentForm div div p:first-of-type {
+  padding-left: 0px !important;
+  margin-bottom: 7px !important;
+  line-height: 1 !important;
+}
+.sm-webpush #consentForm div div p + p {
+  font-size: 10px !important;
+  padding-left: 0px !important;
+  padding-bottom: 5px !important;
+  margin-bottom: 0 !important;
+  line-height: 1 !important;
+}
+.sm-webpush button#smwpConfirmationButton,
+.sm-webpush button#smwpRejectionButton {
+  line-height: 17px !important;
+  padding: 2px 9px !important;
+}
+@media only screen and (max-width: 600px) {
+	div.sm-webpush {
+		margin: 0 auto !important;
+		max-width: 300px !important;
+	}
+	div#consentForm > div > div:nth-last-child(1) > p:nth-child(1) {
+	text-align: center !important;
+	padding-left: 0 !important;
+	font-size: 13px !important;
+	text-align: left !important;
+}
+}
